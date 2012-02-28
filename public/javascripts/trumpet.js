@@ -22,8 +22,9 @@ CloudFlare.define("trumpet", ["cloudflare/jquery1.7", "cloudflare/user", "cloudf
     }, _config)
     var trumpet = new Trumpet(config)
 	if (!config.onCloudflare){
-		cdnPath = "//trumpet.tunr.in/public/"
+		cdnPath = "http://martior.github.com/trumpet/public/"
     }
+	
     //begin extend
     $.extend(Trumpet.prototype, {
 
